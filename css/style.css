@@ -1,0 +1,1282 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-nav {
+  width: 100%;
+  height: 5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+.logo-name h1 {
+  color: #2878eb;
+  font-size: 2rem;
+  font-family: "Jost", sans-serif;
+}
+.logo-name span {
+  margin-left: -0.5rem;
+  color: #f14d5d;
+  font-size: 2rem;
+  font-family: "Jost", sans-serif;
+}
+
+.nav-creation {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mobile-bar i {
+  font-size: 2rem;
+  color: #00000070;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.nav-menu{
+  display: none;
+}
+.nav-phone {
+  display: none;
+}
+
+.cta-section {
+  width: 100%;
+  height: 14.75rem;
+  background-image: linear-gradient(2deg,rgba(0, 0, 0, 0.349) , rgba(0, 128, 0, 0.095)),url(../images/all-images/carousel-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5rem;
+}
+
+.cta-div {
+  width: 100%;
+  height: 11.25rem;
+}
+
+.cta-heading {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.cta-heading p {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-family: "Jost", sans-serif;
+}
+.cta-heading h2 {
+  font-size: 1.8rem;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-family: "Jost", sans-serif;
+}
+
+.cta-button {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  margin-top: 1rem;
+  gap: 1.5rem;
+  margin-top: -0.5rem;
+  justify-content: center;
+}
+
+.qoutebtn,
+.contact-button {
+  margin-top: 1.2rem;
+}
+.qoutebtn a {
+  padding: 0.5rem;
+  background-color: #2878eb;
+  color: #ffffff;
+  width: 6rem;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+}
+
+.contact-button a {
+  padding: 0.5rem;
+  background-color: #f14d5d;
+  color: #ffffff;
+  width: 6rem;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+}
+
+/* Main content */
+
+.main-creation {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.about-div-cctv {
+  height: 32rem;
+  margin: 0 auto 3rem;
+}
+
+.about-us-div h3 {
+  color: #2878eb;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: "Jost", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.about-us-div #para-one {
+  font-size: 1.84rem;
+  text-transform: capitalize;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.about-us-div #para-two {
+  font-size: 1.33rem;
+  color: #6b6a75;
+  font-weight: 600;
+  font-style: italic;
+  font-family: "Jost", sans-serif;
+  margin-bottom: 1.5rem;
+}
+.about-us-div #para-three {
+  color: #6b6aa1;
+  font-size: 1.1rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.experience {
+  height: 12.5rem;
+  background-color: #2878eb;
+  margin-bottom: 1rem;
+  border-bottom: 5px solid #f14d5d;
+}
+
+.award {
+  height: 12.5rem;
+  background-color: #f14d5d;
+  border-bottom: 5px solid #2878eb;
+  margin-bottom: 5rem;
+}
+
+.experience #star {
+  font-size: 5rem;
+  color: #ffffff;
+display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.experience p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.award i {
+  font-size: 5rem;
+  color: #ffffff;
+    display: flex;
+    justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.award p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+/* service section */
+.service-section {
+  width: 100%;
+}
+.service-heading {
+  width: 100%;
+}
+
+.service-heading h3 {
+  text-align: center;
+  color: #2878eb;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: "Jost", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.service-heading p {
+  text-align: center;
+  font-size: 1.84rem;
+  text-transform: capitalize;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.service-section-boxes {
+  width: 100%;
+}
+
+.service-section-box-one {
+  height: 22rem;
+  padding: 2.5rem;
+  background-color: #ecf4ff;
+  border-bottom: 5px solid #2878eb;
+  margin-bottom: 3rem;
+}
+
+#install-cctv-img {
+  width: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.service-section-box-one h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.service-section-box-one .cctv-para {
+  font-size: 1rem;
+  color: #6b6a8b;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.service-section-box-one a {
+  font-size: 1.1rem;
+  color: #288bec;
+  letter-spacing: 1px;
+}
+
+.cctv-heading {
+  color: #3478ec;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+/* pricing-section */
+
+.pricing-section {
+  width: 100%;
+}
+
+.pricing-plan {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.pricing-plan h3 {
+  text-align: center;
+  color: #2878eb;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: "Jost", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-plan p {
+  text-align: center;
+  font-size: 1.84rem;
+  text-transform: capitalize;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.pricing-plan-box-one {
+  width: 100%;
+  height: 28.12rem;
+  border: 1px solid #2878eb;
+  margin-bottom: 3rem;
+}
+
+.plan-box-head {
+  width: 100%;
+  height: 10rem;
+  padding: 3rem;
+  background-color: #2878eb;
+}
+
+.plan-box-head h4,
+.plan-box-head-red h4 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: "Jost", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.plan-box-head p,
+.plan-box-head-red p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+}
+
+.plan-box-body {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.plan-box-body li {
+  margin-bottom: 1rem;
+  color: #747a90;
+  font-size: 1.2rem;
+}
+
+.plan-box-foot {
+  padding-top: 0.5rem;
+  margin: -1.1rem auto;
+  background-color: #2878eb;
+  width: 7rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+}
+
+.plan-box-foot a,
+.plan-box-foot-red a {
+  color: #ffffff;
+  position: relative;
+  left: 0.8rem;
+  top: 0.5rem;
+  font-weight: 600;
+}
+
+.plan-box-head-red {
+  width: 100%;
+  height: 10rem;
+  padding: 3rem;
+  background-color: #f14d5d;
+}
+
+.plan-box-foot-red {
+  padding-top: 0.5rem;
+  margin: -1.1rem auto;
+  background-color: #f14d5d;
+  width: 7rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+}
+
+/* offer-section */
+
+.offer-section {
+  width: 100%;
+  height: 33rem;
+  margin-top: 7rem;
+  background-image: linear-gradient(2deg,rgba(0, 0, 0, 0.349) , rgba(0, 128, 0, 0.095)), url(../images/all-images/carousel-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.offer-box {
+  width: 100%;
+  height: 25rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.offer-box h4 {
+  width: 100%;
+  margin-top: 3rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: "Jost", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.offer-box #offer-headline {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+#offer-details {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.offer-button {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  margin-top: 1rem;
+  gap: 1.5rem;
+  margin-top: -0.5rem;
+  justify-content: center;
+}
+
+.order-now-button,
+.Readmore-button {
+  margin-top: 1.2rem;
+}
+
+.order-now-button a {
+  padding: 0.5rem;
+  background-color: #2878eb;
+  color: #ffffff;
+  width: 6rem;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+}
+
+.Readmore-button a {
+  padding: 0.5rem;
+  background-color: #f14d5d;
+  color: #ffffff;
+  width: 6rem;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+}
+
+/* team members */
+
+.team-members {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.team-head {
+  width: 100%;
+}
+
+.team-profile-box {
+  width: 100%;
+  height: auto;
+  margin-bottom: 3rem;
+}
+.team-head h3 {
+  text-align: center;
+  color: #2878eb;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: "Jost", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.team-head p {
+  text-align: center;
+  font-size: 1.84rem;
+  text-transform: capitalize;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.team-info {
+  width: 100%;
+  background-color: #2878eb;
+  margin-top: -0.3rem;
+  height: 7rem;
+  padding: 1.5rem;
+}
+
+.team-info p {
+  text-align: center;
+  color: #ffffff;
+}
+
+.team-info #team-name {
+  font-size: 1.5rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.team-info #team-designation {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+}
+
+.team-social {
+  width: 2rem;
+  padding: 0.4rem 0.4rem;
+  background-color: #ffffff;
+  position: relative;
+  left: 15rem;
+  bottom: 19.6rem;
+  background-position: bottom-right;
+}
+
+.team-social i {
+  color: #f14d5d;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #f14d5d;
+}
+
+#t-social i {
+  margin-bottom: 0.5rem;
+}
+#f-social i {
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+#l-social i {
+  padding-left: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+#i-social i {
+  padding-left: 0.6rem;
+}
+
+/* testimonial */
+
+.testimonial-section {
+  width: 100%;
+}
+
+.testimonial-head {
+  width: 100%;
+}
+
+.testimonial-head h3 {
+  margin-top: 2rem;
+  text-align: center;
+  color: #2878eb;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: "Jost", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-head p {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-family: "Jost", sans-serif;
+  font-weight: 800;
+  margin-bottom: 6rem;
+}
+
+.testimonial-profile {
+  width: 100%;
+}
+
+.testimonial-profile-box {
+  width: 100%;
+  height: 18rem;
+  background-color: #2878eb;
+  margin-bottom: 5rem;
+}
+
+.testimonial-info {
+  width: 100%;
+  padding: 5rem 3rem 3rem;
+}
+
+.testimonial-info h4 {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: "Jost", sans-serif;
+}
+.testimonial-info p {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Jost", sans-serif;
+}
+#test-pro {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+.testimonial-image {
+  width: 6rem;
+  position: relative;
+  bottom: 23rem;
+  left: 6rem;
+}
+.testimonial-image img {
+  border-radius: 50%;
+}
+
+#profile-three,
+#profile-two {
+  display: none;
+}
+
+/* blog-post */
+
+.blog-post {
+  width: 100%;
+}
+
+.blog-head {
+  width: 100%;
+}
+
+.blog-head h3 {
+  margin-top: 2rem;
+  text-align: center;
+  color: #2878eb;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: "Jost", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.blog-head p {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-family: "Jost", sans-serif;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+
+.blog-profile {
+  width: 100%;
+}
+
+.blog-profile-box-detail {
+  width: 100%;
+  height: 16rem;
+  background-color: #2878eb;
+  margin-top: -0.3rem;
+}
+
+.blog-profile-box-detail h4 {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-top: 4rem;
+  font-family: "Jost", sans-serif;
+}
+
+.blog-profile-box-detail p {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+  padding: 2rem;
+  font-family: "Jost", sans-serif;
+}
+
+.banner {
+  width: 30%;
+  height: 4rem;
+  background-color: #f14d5d;
+  position: relative;
+  bottom: 25rem;
+  right: 2rem;
+}
+.banner p {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+/* footer */
+
+.footer-main {
+  width: 100%;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  background-color: #120f2d;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.footer-heading {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-family: "Jost", sans-serif;
+}
+
+.all-links li a {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+}
+.all-links li {
+  margin-bottom: 1rem;
+}
+
+.all-links li a i {
+  color: #2878eb;
+  margin-right: 0.5rem;
+}
+
+.all-links li {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+}
+
+.fa-location-dot,
+.fa-envelope-open,
+.fa-phone {
+  color: #2878eb;
+  margin-right: 0.5rem;
+}
+
+.social-flex {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.social-flex-contain {
+  width: 3rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  height: 3rem;
+  background-color: #288bec;
+}
+.social-flex-contain i {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.email-input {
+  width: 100%;
+  margin-left: -1.5rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+[type="email"] {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 2px;
+}
+
+#email-signup {
+  width: 5rem;
+  background-color: #288bec;
+}
+
+#email-signup a {
+  position: relative;
+  top: 14px;
+  left: 8px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+}
+
+.copy-right {
+  width: 100%;
+  background-color: #288bec;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+#site-name a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-family: "Jost", sans-serif;
+}
+
+#site-name a i {
+  color: #ffffff;
+}
+
+#rights-res p {
+  color: #ffffff;
+  font-family: "Jost", sans-serif;
+}
+
+#designed {
+  color: #ffffff;
+
+  font-family: "Jost", sans-serif;
+}
+
+#codex a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-family: "Jost", sans-serif;
+}
+
+
+
+/* tablet-responsive */
+
+@media (min-width:768px){
+  
+  .nav-menu{
+    display: none;
+  }
+  .nav-phone {
+    display: none;
+  }
+  .cta-section{
+    background-size: cover;
+    height: 25.75rem;;
+  }
+
+  .cta-heading {
+    padding-top: 5rem;
+   height: 18.12rem;
+  }
+
+  .cta-heading p{
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  .cta-heading h2{
+    font-size: 3.75rem;
+  }
+
+  
+.qoutebtn,
+.contact-button{
+  height: 3rem;
+}
+
+.qoutebtn a{
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+.contact-button a{
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+
+.main-creation{
+  width: 90%;
+}
+.about-us-div #para-one{
+  font-size: 2.5rem;
+}
+#para-three{
+  font-size: 1rem;
+}
+
+.exp-awd{
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience{
+  width: 49%;
+}
+
+.award{
+  width: 49%;
+}
+
+.service-heading p{
+  font-size: 2.5rem;
+}
+.service-section-boxes{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 3rem;
+ justify-content: center;
+}
+
+.service-section-box-one{
+  width: 46%;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-plan p{
+  font-size: 2.5rem;
+}
+
+.offer-box{
+  height: 21rem;
+}
+.offer-box h4{
+  font-size: 1.2rem;
+}
+.offer-box #offer-headline{
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.offer-box #offer-details{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.order-now-button a{
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+.Readmore-button a{
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+
+
+.team-head p{
+  font-size: 2.5rem;
+}
+
+.team-profile-box {
+  width: 100%;
+  height: auto;
+}
+
+.testimonial-head {
+  margin-top: 5rem;
+}
+.testimonial-head p{
+  font-size: 2.5rem;
+}
+
+.blog-head p{
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 0 1.5rem;
+}
+
+.footer-flex-going{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.all-links{
+  width: 48%;
+  margin-bottom: 3rem;
+}
+.all-links h4{
+  font-size: 1.8rem;
+}
+#follow-us{
+  font-weight: 600;
+  font-size: 1.8rem;
+  font-family: "Jost", sans-serif;
+}
+
+.social-flex{
+  width: 100%;
+}
+.type-input{
+  width: 80%;
+}
+[type="email"]{
+  width: 100%;
+}
+.email-input{
+  padding: 2rem;
+}
+
+.copy-right{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.left-copy{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2px;
+  justify-content: center;
+}
+.right-copy{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+}
+}
+
+
+
+
+
+
+@media (min-width:1024px){
+ 
+
+   .mobile-bar{
+    display: none;
+  }
+  .main-nav{
+    padding: 0;
+  }
+ .logo-name{
+  align-self: center;
+  margin-left: 2rem;
+ }
+
+ .nav-menu{
+  align-self: center;
+  padding-left: 2rem;
+  margin-left: 4rem;
+ }
+  .nav-creation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .nav-menu{
+   display: block;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+ .nav-items a{
+  color: #000000;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+ }
+
+ .nav-phone{
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .nav-phone i{
+  color: #ffffff;
+  font-size: 1.5rem;
+ }
+
+ .nav-phone{
+  width: 25%;
+  height: 5rem;
+  visibility: visible;
+  background-color: #F14D5D;
+ }
+ .nav-phone  a{
+  font-size: 1.5rem;
+  color: #ffffff;
+ }
+
+.hero-content{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.about-div-cctv{
+  width: 40%;
+}
+.about-div-cctv img{
+  height: 35.5rem;
+}
+.detail-about{
+  width: 55%;
+}
+#para-one{
+  font-size: 2.75rem;
+  font-weight: 700;
+}
+
+
+.service-heading p{
+  padding: 0 4rem;
+  font-size: 2.75rem;
+}
+
+.service-section-box-one{
+  width: 29%;
+}
+
+.pricing-plan p{
+  padding: 0 4rem;
+  font-size: 2.75rem;
+}
+
+.pricing-plan-boxes{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.pricing-plan-box-one{
+  width: 29%;
+}
+
+.offer-box p{
+  padding: 0 4rem;
+  font-size: 2.75rem;
+}
+
+#offer-details{
+  width: 35rem;
+  margin-left: 13rem;
+}
+
+.order-now-button a{
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+.Readmore-button a{
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+
+.team-head p{
+  padding: 0 4rem;
+  font-size: 2.75rem;
+}
+
+.team-profile{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.team-profile-box{
+  width: 29%;
+}
+
+.testimonial-head p{
+  padding: 0 4rem;
+  font-size: 2.75rem;
+  font-weight: 700
+}
+
+
+.blog-head p{
+  padding: 0 4rem;
+  font-size: 2.75rem;
+}
+
+.blog-profile{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.blog-profile-box{
+  width: 47%;
+}
+
+.footer-flex-going{
+  gap: 2rem;
+}
+.all-links{
+  width: 20%;
+}
+
+.email-input{
+  width: 70%;
+  margin: 0 auto;
+}
+}
+
+
+
